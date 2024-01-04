@@ -43,14 +43,15 @@ img{width: 100%;}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .exLineBox{position: relative; height: 20px; margin-bottom: 20px;}
 .elbP272{padding-top: 272px;}
-.exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; opacity: 0.2; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
+.exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
-
+.exLine{height: 2px; width: 100%; background: linear-gradient(#f17917,#f1791700) ;}
 
 /* 세컨드마켓 css */
 
 .smc{color: #f17917;}
 .smb{background: #f17917;}
+.smb02{background: #f1791720;}
 .smTag{color: #f17917; border: 1px solid #f17917;}
 .saTop::after{position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
 .pageExText{font-size: 18px; font-weight: 400; margin-bottom: 56px;}
