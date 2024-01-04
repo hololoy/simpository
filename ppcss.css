@@ -56,13 +56,16 @@ img{width: 100%;}
 
 /* 세컨드마켓 css */
 
+.bbgg{background: linear-gradient(#333,#000 );}
 .smc{color: #f17917;}
 .smb{background: #f17917;}
 .smb02{background: #f1791720;}
 .smTag{color: #f17917; border: 1px solid #f17917; }
 .saTop::after{content: ''; z-index: -1; position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
 .pageExText{font-size: 15px; font-weight: 400; line-height: 1.7; margin-bottom: 56px;}
-.saPageSimgBox{display: flex;justify-content: space-between;}
+.saPageSimgBox{display: flex;justify-content: space-between; margin-bottom:160px;}
 .saPageSimgBox .simg{margin-top: 100px;}
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
+.sapFlexBox{display: flex;}
+.sapImg{max-width: 760px;}
