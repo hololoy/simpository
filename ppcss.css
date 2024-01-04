@@ -34,7 +34,7 @@ img{width: 100%;}
 .tBold{font-weight: 700!important;}
 .pjTextBox{text-align: center;}
 #sHeading{font-size: 32px!important; font-weight: 700!important; margin-bottom: 20px;}
-.pjImgBox{width: 100%;}
+.pjImgBox{width: 100%; margin-bottom: 80px;}
 .pjImgBox > img{border-radius: 8px;}
 .pjFlex{display: flex; justify-content: space-between;}
 .pjFlex .pjfImg{width: 23.5%; border-radius: 8px;}
