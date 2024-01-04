@@ -49,6 +49,7 @@ img{width: 100%;}
 
 /* 세컨드마켓 css */
 
+.smc{color: #f17917;}
 .smb{background: #f17917;}
 .smTag{color: #f17917; border: 1px solid #f17917;}
 .saTop::after{position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
