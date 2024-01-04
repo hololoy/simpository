@@ -61,6 +61,6 @@ img{width: 100%;}
 .saTop::after{position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
 .pageExText{font-size: 15px; font-weight: 400; margin-bottom: 56px;}
 .saPageSimgBox{display: flex;justify-content: space-between;}
-.saPageSimgBox .simg{padding-top: 100px;}
-.saPageSimgBox .timg{padding-top: 200px;}
+.saPageSimgBox .simg{margin-top: 100px;}
+.saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
