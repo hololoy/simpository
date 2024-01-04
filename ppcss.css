@@ -1,5 +1,16 @@
-.b33{background: #333;}
+/* 공통 css */
 
+section{position: relative; text-align: left; padding: 100px 0;}
+img{width: 100%;}
+
+.b33{background: #333;}
+.b33 .sHeading,.b22 .sHeading{color: #fff;}
+.b33 .pjText,.b22 .pjText{color: #D0D0D0;}
+.b22{background: #222;}
+.bff{background: #fff;}
+.bff .sHeading{background: #333;}
+.bff .pjText{background: #555;}
+.widthBox{max-width: 1180px; margin: 0 auto;}
 
 #PPcontents{max-width: 100%;}
 #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
@@ -10,10 +21,25 @@
 #topContents .PPTBottomText .btBox{max-width: 1180px; height: 232px; min-height: 200px; margin: 0 auto; display: flex; border-left: 1px solid #fff;border-right: 1px solid #fff;}
 #topContents .PPTBottomText .btBox .pbBox{padding: 32px; width: 33.33%; border-right: 1px solid #fff;}
 #topContents .PPTBottomText .btBox .pbBox:last-child{border-right: 0px;}
+
+
 #fHeading{font-weight: 700!important; font-size: 16px!important; margin-bottom: 8px; color: #fff;}
 .rTextBox{font-weight: 400; font-size: 16px; color: #fff;}
 .pbFlexBox{display: flex;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
+.pIntroTag{text-align: center; padding: 10px 16px; border-radius: 100px; font-size: 20px; margin-bottom: 64px;}
 #pjIntro{padding: 140px 0;}
+.pjText{font-size: 20px; line-height: 1.7; font-weight:400;}
+.pjTextBox{text-align: center;}
 #sHeading{font-size: 32px!important; font-weight: 700!important;}
+.pjImgBox{width: 100%;}
+.mediaBorderPC{width: 100%; border-radius: 16px; border: 6px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+.mediaBorderM{max-width: 360px; min-width: 32%; outline: 6px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+.mediaBorder{outline: 6px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+/* 세컨드마켓 css */
+
+.smTag{color: #f17917; border: 1px solid #f17917;}
+.saTop::after{position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
+.pageExText{font-size: 18px; font-weight: 400; margin-bottom: 56px;}
+.saPageSimgBox{display: flex;justify-content: space-between;}
