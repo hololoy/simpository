@@ -8,8 +8,8 @@ img{width: 100%;}
 .b33 .pjText,.b22 .pjText{color: #D0D0D0;}
 .b22{background: #222;}
 .bff{background: #fff;}
-.bff .sHeading{background: #333;}
-.bff .pjText{background: #555;}
+.bff .sHeading{color: #333;}
+.bff .pjText{color: #555;}
 .widthBox{max-width: 1180px; margin: 0 auto;}
 
 #PPcontents{max-width: 100%;}
@@ -31,8 +31,9 @@ img{width: 100%;}
 .pIntroTag{text-align: center; padding: 10px 16px; border-radius: 100px; font-size: 20px; margin-bottom: 64px;}
 #pjIntro{padding: 140px 0;}
 .pjText{font-size: 20px; line-height: 1.7; font-weight:400;}
+.tBold{font-weight: 700!important;}
 .pjTextBox{text-align: center;}
-#sHeading{font-size: 32px!important; font-weight: 700!important;}
+#sHeading{font-size: 32px!important; font-weight: 700!important; margin-bottom: 20px;}
 .pjImgBox{width: 100%;}
 .pjImgBox > img{border-radius: 8px;}
 .pjFlex{display: flex; justify-content: space-between;}
