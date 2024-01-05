@@ -30,7 +30,7 @@ img{width: 100%;}
 
 .pjCaption{font-size: 14px; margin-bottom: 16px;}
 #fHeading{font-weight: 700!important; font-size: 16px!important; margin-bottom: 8px; color: #fff;}
-.rTextBox{font-weight: 400; font-size: 16px; color: #fff;}
+.rTextBox{font-weight: 400; font-size: 16px; color: #fff; margin: 8px 0;}
 .pbFlexBox{display: flex;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
@@ -60,10 +60,12 @@ img{width: 100%;}
 .exLineBox{position: relative; height: 20px; margin-bottom: 20px;}
 .elbm272{margin-top: 272px;}
 .exLineBox{display: flex; position: relative;}
-.exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute; top: 0; right: 0;}
+.exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
+.exlcPr102{top: 0; right: -102px;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
-.exLine{position: absolute; top: 0; left: 0; height: 2px; background: linear-gradient(to left,#f17917,#f1791700) ; align-self: center;}
-.exlwd115{width: 115%;}
+.exLine{position: absolute; height: 2px; background: linear-gradient(to left,#f17917,#f1791700) ; align-self: center;}
+.exlPt09{top: 9px; left: 0;}
+.exlwd127{width: 127%;}
 .fsi > img{border-radius: 16px;}
 
 /* 세컨드마켓 css */
