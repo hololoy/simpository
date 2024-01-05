@@ -51,6 +51,7 @@ img{width: 100%;}
 .pjoImg > img{border-radius: 8px;}
 
 .relBox{position: relative;}
+.mediaModal{max-width: 310px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorderPC{width: 100%; border-radius: 16px; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorderM{max-width: 340px; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
@@ -82,7 +83,14 @@ img{width: 100%;}
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; justify-content: space-between;}
 .sapImg{max-width: 760px;}
+.saPageTimgBox{margin-bottom: 140px;}
+.saPageFimg{padding-right: 80px;}
 
 /* 마이페이지 */
+.myPageSimgBox{margin-bottom: 160px;}
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
 .msImgBox > img{width: 70%;}
+.myPageTimgBox{display: flex; justify-content: space-between;}
+
+/* 어드민페이지 */
+.adminFsi{position: relative;top: -10px; z-index: -1;}
