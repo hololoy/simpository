@@ -58,15 +58,16 @@ img{width: 100%;}
 .mediaBorderM{max-width: 340px; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .exLineBox{position: relative; height: 20px; margin-bottom: 20px;}
-.elbP272{padding-top: 272px;}
+.elbm272{margin-top: 272px;}
 .exLineBox{display: flex; position: relative;}
-.exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
+.exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute; top: 0; right: 0;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
-.exLine{height: 2px; background: linear-gradient(#f17917,#f1791700) ; align-self: center;}
+.exLine{position: absolute; top: 0; left: 0; height: 2px; background: linear-gradient(to left,#f17917,#f1791700) ; align-self: center;}
 .exlwd115{width: 115%;}
 .fsi > img{border-radius: 16px;}
 
 /* 세컨드마켓 css */
+
 .dbbg{position: absolute;top: 0;left: 0;width: 100%;}
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
@@ -91,7 +92,7 @@ img{width: 100%;}
 /* 마이페이지 */
 .myPageSimgBox{margin-bottom: 160px;}
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
-.msImgBox > img{width: 70%; height: fit-content;}
+.msImgBox > img{width: 70%; height: fit-content;border-radius: 8px;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
 .myPageTimgBox > .fBox{min-width: 320px;}
 
