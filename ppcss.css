@@ -1,6 +1,6 @@
 /* 공통 css */
 
-section{position: relative; text-align: left;}
+section{position: relative; text-align: left; padding: 100px 0;}
 img{width: 100%;}
 
 .wb{color: #555;}
@@ -31,10 +31,10 @@ img{width: 100%;}
 .pbFlexBox{display: flex;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
-.introImgBox{width: 35%; padding: 40px; border-radius: 8px;}
-.pIntroTag{text-align: center; width: fit-content; padding: 10px 16px; border-radius: 100px; font-size: 18px; font-weight: 700; margin:0 auto 64px;}
+.introImgBox{width: 35%; height: fit-content; padding: 40px; border-radius: 8px;}
+.pIntroTag{text-align: center; width: fit-content; padding: 12px 16px 10px; border-radius: 100px; font-size: 18px; font-weight: 700; margin:0 auto 64px;}
 #pjIntro{padding: 140px 0;}
-.pjiText .pjText{width: 45%;}
+.pjiText .pjText{width: 65%;}
 .pjText{font-size: 17px; line-height: 1.7; font-weight:400; margin-bottom: 60px;}
 .tBold{font-weight: 700!important;}
 .pjTextBox{text-align: center; margin-bottom: 160px;}
@@ -60,7 +60,7 @@ img{width: 100%;}
 
 /* 세컨드마켓 css */
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
-.smiCircleBox{display: flex;position: relative;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
+.smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
 .smiCircle{width: 96px; height: 96px; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .bbgg{background: linear-gradient(#333,#000 );}
 .smc{color: #f17917;}
@@ -69,7 +69,7 @@ img{width: 100%;}
 .smTag{color: #f17917; border: 1px solid #f17917; }
 .saTop::after{content: ''; z-index: -1; position: absolute; bottom: 0; left: 0; background: #333; width: 100vw; height: 870px;}
 .pageExText{font-size: 15px; font-weight: 400; line-height: 1.7; margin-bottom: 56px;}
-.saPageSimgBox{display: flex;justify-content: space-between; margin-bottom:160px;}
+.saPageSimgBox{display: flex;justify-content: space-between; padding-bottom:160px;}
 .saPageSimgBox .simg{margin-top: 100px;}
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
