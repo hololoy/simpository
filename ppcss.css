@@ -57,9 +57,13 @@ img{width: 100%;}
 .mediaBorderPC{width: 100%; border-radius: 16px; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorderM{max-width: 340px; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+.fsi > img{border-radius: 16px;}
+
+/* 이미지 설명 라인 css */
 .exLineBox{position: relative; height: 20px; margin-bottom: 20px;}
+.exBox{display: flex;}
 .elbm266{margin-top: 266px;}
-.elbm224{margin-top: 266px;}
+.elbm224{margin-top: 224px;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlcPr102{top: 0; right: -102px;}
@@ -67,7 +71,8 @@ img{width: 100%;}
 .exLine{position: absolute; height: 2px; align-self: center;}
 .exlPt09{top: 9px; left: 0;}
 .exlwd127{width: 127%;}
-.fsi > img{border-radius: 16px;}
+.exlwd72{width: 72px;}
+
 
 /* 세컨드마켓 css */
 .smlcRight{background: linear-gradient(to right,#f17917,#f1791700) }
@@ -75,7 +80,7 @@ img{width: 100%;}
 .dbbg{position: absolute;top: 0;left: 0;width: 100%;}
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
-.smiCircle{width: 84px; height: 84px; background: #d4d4d4; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
+.smiCircle{width: 84px; height: 84px; background: #d4d4d4; font-size: 17px; font-weight: 700; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .smBoxColor{background: #f17917!important;}
 .bbgg{background: linear-gradient(#333,#000 );}
 .smc{color: #f17917;}
