@@ -1,5 +1,5 @@
 /* 공통 css */
-
+body{margin: 0;}
 section{position: relative; text-align: left; padding: 100px 0;}
 #PPcontentsPC,#PPcontentsMobile{padding: 0!important;}
 img{width: 100%;}
