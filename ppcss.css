@@ -9,8 +9,8 @@ img{width: 100%;}
 .wb{color: #555;}
 .bb{color: #d0d0d0;}
 .b33{background: #333;}
-.b33 #sHeading,.b22 #sHeading{color: #fff!important;}
-.b33 .pjText,.b22 .pjText,.b33 .pjBold,.b22 .pjBold{color: #D0D0D0!important;}
+.b33 #sHeading,.b22 #sHeading,.bbgg #sHeading{color: #fff!important;}
+.b33 .pjText,.b22 .pjText,.b33 .pjBold,.b22 .pjBold,.bbgg .pjText,.bbgg .pjText{color: #D0D0D0!important;}
 .b22{background: #222;}
 .bff{background: #fff;}
 .bff #sHeading{color: #333!important;}
