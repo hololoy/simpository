@@ -84,13 +84,14 @@ img{width: 100%;}
 .sapFlexBox{display: flex; justify-content: space-between;}
 .sapImg{max-width: 760px;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{padding-right: 80px;}
+.saPageFimg{margin-right: 80px;}
 
 /* 마이페이지 */
 .myPageSimgBox{margin-bottom: 160px;}
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
-.msImgBox > img{width: 70%;}
+.msImgBox > img{width: 70%; height: fit-content;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
+.myPageTimgBox > .fBox{min-width: 320px;}
 
 /* 어드민페이지 */
 .adminFsi{position: relative;top: -10px; z-index: -1;}
