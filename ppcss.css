@@ -58,7 +58,7 @@ img{width: 100%;}
 .mediaBorderM{max-width: 340px; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .exLineBox{position: relative; height: 20px; margin-bottom: 20px;}
-.elbm272{margin-top: 272px;}
+.elbm266{margin-top: 266px;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlcPr102{top: 0; right: -102px;}
