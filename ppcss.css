@@ -89,7 +89,7 @@ img{width: 100%;}
 .smiCircle{width: 84px; height: 84px; background: #d4d4d4; font-size: 17px; font-weight: 700; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .smBoxColor{background: #f17917!important;}
 .bbgg{background: linear-gradient(#333,#000 );}
-.bbggReverse{background:to bottom linear-gradient(#333,#000 );}
+.bbggReverse{background: linear-gradient(to bottom, #333,#000 );}
 .smc{color: #f17917;}
 .smb{background: #f17917;}
 .smb02{background: #f1791720;}
