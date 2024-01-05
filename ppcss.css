@@ -67,6 +67,7 @@ img{width: 100%;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlcPr102{top: 0; right: -102px;}
+.exlcPl24{top: 0; left: -24px;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
 .exLine{position: absolute; height: 2px; align-self: center;}
 .exlPt09{top: 9px; left: 0;}
