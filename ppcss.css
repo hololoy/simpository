@@ -1,6 +1,7 @@
 /* 공통 css */
 
 section{position: relative; text-align: left; padding: 100px 0;}
+#PPcontentsPC,#PPcontentsMobile{padding: 0!important;}
 img{width: 100%;}
 
 .wb{color: #555;}
@@ -61,7 +62,8 @@ img{width: 100%;}
 /* 세컨드마켓 css */
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
-.smiCircle{width: 96px; height: 96px; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
+.smiCircle{width: 96px; height: 96px; background: #d4d4d4; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
+.smBoxColor{background: #f17917!important;}
 .bbgg{background: linear-gradient(#333,#000 );}
 .smc{color: #f17917;}
 .smb{background: #f17917;}
