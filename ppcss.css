@@ -59,17 +59,19 @@ img{width: 100%;}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .exLineBox{position: relative; height: 20px; margin-bottom: 20px;}
 .elbm266{margin-top: 266px;}
+.elbm224{margin-top: 266px;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlcPr102{top: 0; right: -102px;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
-.exLine{position: absolute; height: 2px; background: linear-gradient(to left,#f17917,#f1791700) ; align-self: center;}
+.exLine{position: absolute; height: 2px; align-self: center;}
 .exlPt09{top: 9px; left: 0;}
 .exlwd127{width: 127%;}
 .fsi > img{border-radius: 16px;}
 
 /* 세컨드마켓 css */
-
+.smlcRight{background: linear-gradient(to right,#f17917,#f1791700) }
+.smlcLeft{background: linear-gradient(to left,#f17917,#f1791700) }
 .dbbg{position: absolute;top: 0;left: 0;width: 100%;}
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
@@ -87,6 +89,7 @@ img{width: 100%;}
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; justify-content: space-between;}
+.simgTextBox{width: 340px;}
 .sapImg{max-width: 760px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-right: 80px;}
