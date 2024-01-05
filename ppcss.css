@@ -1,8 +1,8 @@
 /* 공통 css */
 body{margin: 0;}
 section{position: relative; text-align: left;}
-.pt100{padding-top: 100px;}
-.pb100{padding-bottom: 100px;}
+.pt100{padding-top: 160px;}
+.pb100{padding-bottom: 160px;}
 #PPcontentsPC,#PPcontentsMobile{padding: 0!important;}
 img{width: 100%;}
 
@@ -63,7 +63,7 @@ img{width: 100%;}
 .exLineBox{position: relative; top: 3px; left: 0; height: 20px; margin-bottom: 20px;}
 .exBox{display: flex;}
 .elbm266{margin-top: 266px;}
-.elbm224{margin-top: 224px;}
+.elbm184{margin-top: 184px;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlcPr102{top: 0; right: -102px;}
@@ -76,7 +76,7 @@ img{width: 100%;}
 .exlwd72{width: 72px;}
 .ml72{margin-left: 72px;}
 .mt64{margin-top: 64px;}
-.mt80{margin-top: 80px;}
+.mt54{margin-top: 54px;}
 .mt100{margin-top: 100px;}
 
 /* 세컨드마켓 css */
