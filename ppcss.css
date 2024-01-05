@@ -39,7 +39,7 @@ img{width: 100%;}
 #pjIntro{padding: 140px 0;}
 .pjiText .pjText{width: 65%; margin-bottom: 0;}
 .pjBold{font-size: 17px; line-height: 1.7; font-weight:700; margin-bottom: 8px;}
-.pjText{font-size: 17px; line-height: 1.7; font-weight:400; margin-bottom: 60px;}
+.pjText{font-size: 17px; line-height: 1.7; font-weight:400; margin-bottom: 60px; margin-top: 0;}
 .tBold{font-weight: 700!important;}
 .pjTextBox{text-align: center; margin-bottom: 160px;}
 .pjTextBox:last-child{text-align: center; margin-bottom: 0}
@@ -76,6 +76,7 @@ img{width: 100%;}
 .exlwd72{width: 72px;}
 .ml72{margin-left: 72px;}
 .mt64{margin-top: 64px;}
+.mt100{margin-top: 100px;}
 
 /* 세컨드마켓 css */
 .smlcRight{background: linear-gradient(to right,#f17917,#f1791700) }
@@ -106,12 +107,12 @@ img{width: 100%;}
 .myPageSimgBox{margin-bottom: 160px;}
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
-.msImgBox .pjText{margin-top: 0;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
 .msImgBox > img{width: 70%; height: fit-content;border-radius: 8px;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
-.myPageTimgBox .tBox{}
+.myPageTimgBox .tBox .exBox{display: flex;}
 .myPageTimgBox > .fBox{min-width: 320px;}
+
 
 /* 어드민페이지 */
 .adminFsi{position: relative;top: -10px; z-index: -1;}
