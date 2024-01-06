@@ -1,7 +1,7 @@
 
 
 /* pc css */
-@media (max-width:1180px) {
+@media (min-width:1180px) {
 
 /* 공통 css */
 body{margin: 0;}
@@ -174,13 +174,13 @@ img{width: 100%;}
         overflow-y: hidden;
     margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 23.5%; min-width: 278px; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
-    .widthBox{padding: 0 32px; width: 100%; margin: 0 auto; position: relative;}
+    .widthBox{padding:0 12.5%; width: auto; margin: 0 auto; position: relative;}
     .pjTextBox{text-align: left;}
     .pjTextBox:last-child{text-align: left; margin-bottom: 0}
-    .introImgBox{width: 100%; height: fit-content; padding: 40px 64px; border-radius: 8px;}
-    .pjiText .pjText{width: 40%; min-width: 296px; margin-bottom: 64px;}
-    .mediaBorderM{max-width: 85%; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
-    .mediaModal{max-width: 85%; min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .introImgBox{height: fit-content; padding: 40px 64px; border-radius: 8px;}
+    .pjiText .pjText{width: 45%; min-width: 296px; margin-bottom: 64px;}
+    .mediaBorderM{max-width: 33%; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaModal{max-width: 33%; min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 
 
     /* 세컨드마켓 css */
