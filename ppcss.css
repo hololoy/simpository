@@ -16,7 +16,7 @@
 #fHeading{font-weight: 700!important; font-size: 14px!important; margin-bottom: 8px; color: #fff;}
 .rTextBox{font-weight: 400; font-size: 14px; color: #fff; margin: 8px 0;}
 .pbFlexBox .rTextBox:first-child{width: 40%;}
-.widthBox{width: 768px; margin: 0 auto; position: relative;}
+.widthBox{padding: 0 60px; margin: 0 auto; position: relative;}
 
 }
 
