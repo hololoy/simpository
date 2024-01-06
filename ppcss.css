@@ -28,6 +28,9 @@
         overflow-y: hidden;
     margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 80%; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
+    .widthBox{padding: 0 32px; margin: 0 auto; position: relative;}
+  
+  
     /* 세컨드마켓 css */
     .arrowImg{width: 24px; margin: 60px 0;}
 
