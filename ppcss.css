@@ -1,5 +1,7 @@
 /* 모바일 css */
 @media (max-width:1179px) {
+    body{margin: 0;}
+    section{position: relative; text-align: left;}
     #PPcontentsPC{display: none;}
     #PPcontentsMobile{display: block!important;}
     .pbFlexBox .rTextBox:first-child{width:40%} 
@@ -37,10 +39,6 @@
 
 /* pc css */
 @media (max-width:1180px) {
-
-}
-
-
 
 /* 공통 css */
 body{margin: 0;}
@@ -176,3 +174,6 @@ img{width: 100%;}
 .driverPageSimgBox{display: flex; justify-content: space-between;}
 .driverPageSimgBox .exBox{display: flex;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
+}
+
+
