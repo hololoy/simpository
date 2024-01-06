@@ -55,14 +55,16 @@ img{width: 100%;}
 .relBox{position: relative;}
 .mediaModal{max-width: 310px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaModal > img{border-radius: 8px;}
-.mediaBorderPC{width: 100%; border-radius: 16px; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
-.mediaBorderM{max-width: 340px; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+.mediaBorderPC{width: 100%; border-radius: 16px; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+.mediaBorderM{max-width: 340px; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .fsi > img{border-radius: 16px;}
 
 /* 이미지 설명 라인 css */
 .exLineBox{position: relative; top: 3px; left: 0; height: 20px; margin-bottom: 20px;}
 .exBox{display: flex;}
+.elbm60{margin-top: 60px;}
+.elbm200{margin-top: 200px;}
 .elbm266{margin-top: 266px;}
 .elbm184{margin-top: 184px;}
 .exLineBox{display: flex; position: relative;}
@@ -73,6 +75,7 @@ img{width: 100%;}
 .exLine{position: absolute; height: 2px; align-self: center;}
 .exlPt09{top: 9px; left: 0;}
 .exlPl16{top: 9px; left: -16px;}
+.exlwd460{width: 460px;}
 .exlwd430{width: 430px;}
 .exlwd72{width: 72px;}
 .ml72{margin-left: 72px;}
@@ -125,3 +128,4 @@ img{width: 100%;}
 
 /* 배송기사 페이지 */
 .driverPageSimgBox{display: flex; justify-content: space-between;}
+.driverPageSimgBox .exBox{display: flex;}
