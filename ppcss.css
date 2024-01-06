@@ -139,8 +139,13 @@ img{width: 100%;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
 }
 
+
+
+
+
 /* 모바일 css */
 @media (max-width:1179px) {
+    img{width: 100%;}
     body{margin: 0;}
     section{position: relative; text-align: left;}
     #PPcontentsPC{display: none;}
@@ -175,6 +180,7 @@ img{width: 100%;}
     .introImgBox{width: 100%; height: fit-content; padding: 40px 64px; border-radius: 8px;}
     .pjiText .pjText{width: 40%; min-width: 296px; margin-bottom: 64px;}
     .mediaBorderM{max-width: 85%; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaModal{max-width: 85%; min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 
 
     /* 세컨드마켓 css */
