@@ -174,7 +174,7 @@ img{width: 100%;}
         overflow-y: hidden;
     margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 23.5%; min-width: 278px; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
-    .widthBox{padding: 0 32px; margin: 0 auto; position: relative;}
+    .widthBox{padding: 0 32px; width: 100%; margin: 0 auto; position: relative;}
     .pjTextBox{text-align: left;}
     .pjTextBox:last-child{text-align: left; margin-bottom: 0}
     .introImgBox{width: 100%; height: fit-content; padding: 40px 64px; border-radius: 8px;}
