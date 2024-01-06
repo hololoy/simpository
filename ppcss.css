@@ -128,3 +128,4 @@ img{width: 100%;}
 /* 배송기사 페이지 */
 .driverPageSimgBox{display: flex; justify-content: space-between;}
 .driverPageSimgBox .exBox{display: flex;}
+.driverPageSimgBox .pjText{margin-bottom: 24px;}
