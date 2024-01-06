@@ -159,7 +159,7 @@ img{width: 100%;}
     #PPcontents{max-width: 100%;}
     #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
     #topContents .PPTtopText{max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; padding-top: 100px;}
-    #topContents .PPTtopText #ppHeading{font-size: 40px; font-weight: 700!important;}
+    #topContents .PPTtopText #ppHeading{font-size: 40px!important; font-weight: 700!important;}
     #topContents .PPTBottomText{max-width: 100%;}
     #topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; flex-direction: column;}
     #topContents .PPTBottomText .btBox .pbBox{border-top: 1px solid #fff; padding-top: 18px; display: flex; margin-bottom: 48px;}
