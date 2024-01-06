@@ -24,7 +24,7 @@
     .pjCaption{font-size: 13px; margin-bottom: 8px;}
     .pjFlex{  display: flex;
         flex-wrap: no-wrap;
-        overflow-x: scroll;
+        overflow-x: auto;
         overflow-y: hidden;
     margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 80%; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
