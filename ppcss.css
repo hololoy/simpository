@@ -1,7 +1,7 @@
 /* 모바일 css */
 @media (max-width:1179px) {
     #PPcontentsPC{display: none;}
-    #PPcontentsMobile{display: block;}
+    #PPcontentsMobile{display: block!important;}
     .pbFlexBox .rTextBox:first-child{width:40%} 
     #PPcontents{max-width: 100%;}
     #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
