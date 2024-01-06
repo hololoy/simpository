@@ -68,6 +68,7 @@ img{width: 100%;}
 .elbm184{margin-top: 184px;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
+.exlcPl102{top: 0; left: -102px;}
 .exlcPr102{top: 0; right: -102px;}
 .exlcPl24{top: 0; left: -24px;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
@@ -78,8 +79,9 @@ img{width: 100%;}
 .exlwd430{width: 430px;}
 .exlwd72{width: 72px;}
 .ml72{margin-left: 72px;}
-.mt64{margin-top: 64px;}
 .mt54{margin-top: 54px;}
+.mt64{margin-top: 64px;}
+.mt80{margin-top: 80px;}
 .mt100{margin-top: 100px;}
 
 /* 세컨드마켓 css */
