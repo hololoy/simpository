@@ -20,7 +20,10 @@
     .pb100{padding-bottom: 64px;}
     .pIntroTag{text-align: center; width: fit-content; padding: 12px 16px 10px; border-radius: 100px; font-size: 14px; font-weight: 700; margin:0 auto 40px;}
     .pjCaption{font-size: 13px; margin-bottom: 8px;}
-    .pjFlex{}
+    .pjFlex{  display: flex;
+        flex-wrap: no-wrap;
+        overflow-x: scroll;
+        overflow-y: hidden;}
 
     /* 세컨드마켓 css */
     .arrowImg{width: 24px; margin: 60px 0;}
