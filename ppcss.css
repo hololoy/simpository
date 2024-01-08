@@ -3,7 +3,7 @@
 
 
 /* pc css */
-@media screen and (min-width:1180px) {
+@media screen and (min-width:768px) {
 
 /* 공통 css */
 body{margin: 0;}
@@ -43,7 +43,7 @@ img{width: 100%;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
 .introImgBox{width: 35%; height: fit-content; padding: 40px 64px; border-radius: 8px;}
-.pIntroTag{text-align: center; width: fit-content; padding: 12px 16px 10px; border-radius: 100px; font-size: 18px; font-weight: 700; margin:0 auto 64px;}
+.pIntroTag{text-align: center; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 18px; font-weight: 700; margin:0 auto 64px;}
 #pjIntro{padding: 140px 0;}
 .pjiText .pjText{width: 65%; margin-bottom: 0;}
 .pjBold{font-size: 17px; line-height: 1.7; font-weight:700; margin-bottom: 8px;}
@@ -156,7 +156,7 @@ img{width: 100%;}
 
 
 
-@media screen and (max-width:1179px) {
+@media screen and (max-width:767px) {
     
     img{width: 100%;}
     body{margin: 0;}
@@ -190,7 +190,7 @@ img{width: 100%;}
     .tBold{font-weight: 700!important;}
     .pt100{padding-top: 100px;}
     .pb100{padding-bottom: 100px;}
-    .pIntroTag{text-align: left; width: fit-content; padding: 12px 16px 10px; border-radius: 100px; font-size: 14px; font-weight: 700; margin: 0 0 40px;}
+    .pIntroTag{text-align: left; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 14px; font-weight: 700; margin: 0 0 40px;}
     .pjCaption{font-size: 14px; margin-bottom: 8px;}
     .pjFlex{ position:relative; display: flex; flex-wrap: no-wrap;  overflow-x: auto; overflow-y: hidden; width:100vw; margin-left: -8.5%; margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 68%; max-width: 360px; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
@@ -241,6 +241,7 @@ img{width: 100%;}
 .sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-left: -7.5%; width: 92.5vw; max-width: 760px;}
+.saPageFimg > img{border-radius: 0 8px 8px 0;}
 
 /* 마이페이지 */
 .myPageSimgBox{margin-bottom: 160px;}
@@ -264,7 +265,7 @@ img{width: 100%;}
 .driverPageSimgBox .exBox{display: flex;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
 .numTextBox{display: flex;}
-.numTextBox .numBox{width: 20px; height: 20px; background: #f17917; font-size: 14px; font-weight: 600; color: #fff;display: flex; justify-content: center; align-items: center; margin-right: 12px;}
+.numTextBox .numBox{width: 20px; height: 20px; border-radius: 20px; background: #f17917; font-size: 14px; font-weight: 600; color: #fff;display: flex; justify-content: center; align-items: center; margin-right: 12px;}
 }
 
 
