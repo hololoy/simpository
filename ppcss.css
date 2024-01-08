@@ -245,7 +245,7 @@ img{width: 100%;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
 .msImgBox > img{width: 70%; height: fit-content;border-radius: 8px;}
-.myPageTimgBox{display: flex; justify-content: space-between;}
+.myPageTimgBox{display: flex; flex-direction: column;}
 .myPageTimgBox .tBox .exBox{display: flex;}
 .myPageTimgBox .tBox .exLineBox{left: -100px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
@@ -257,7 +257,7 @@ img{width: 100%;}
 .adminFsi{position: relative;top: -10px;left: 3px; z-index: -1;}
 
 /* 배송기사 페이지 */
-.driverPageSimgBox{display: flex; justify-content: space-between;}
+.driverPageSimgBox{display: flex; flex-direction: column;}
 .driverPageSimgBox .exBox{display: flex;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
 }
