@@ -254,6 +254,7 @@ img{width: 100%;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
 .msImgBox > img{border-radius: 8px;}
 .myPageTimgBox{display: flex; flex-direction: column;}
+.myPageTimgBox .sBox{margin-bottom: 48px;}
 .myPageTimgBox .tBox .exBox{display: flex;}
 .myPageTimgBox .tBox .exLineBox{left: -100px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
