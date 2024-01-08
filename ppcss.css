@@ -194,7 +194,7 @@ img{width: 100%;}
     .pjCaption{font-size: 14px; margin-bottom: 8px;}
     .pjFlex{ position:relative; display: flex; flex-wrap: no-wrap;  overflow-x: auto; overflow-y: hidden; width:100vw; margin-left: -8.5%; margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 68%; max-width: 360px; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
-    .pjfImg:last-child::after{position: absolute;top: 0; right: 0; height: 100%; width:7.5%; background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0));}
+    .pjFlexBg::after{position: absolute;top: 0; right: 0; height: 100%; width:7.5%; background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0));}
     .pjFlex .pjfImg:first-child{margin-left: 7.5%;}
     .pjFlex .pjfImg:last-child{margin-right: 7.5%;}
     .pjfImg > img{border-radius: 8px;}
