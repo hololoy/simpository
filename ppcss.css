@@ -190,7 +190,7 @@ img{width: 100%;}
     .tBold{font-weight: 700!important;}
     .pt100{padding-top: 100px;}
     .pb100{padding-bottom: 100px;}
-    .wd92{width: 92.5vw;}
+    .wd92{width: 89.5vw;}
     .pIntroTag{text-align: left; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 14px; font-weight: 700; margin: 0 0 40px;}
     .pjCaption{font-size: 14px; margin-bottom: 8px;}
     .pjFlex{ position:relative; display: flex; flex-wrap: no-wrap;  overflow-x: auto; overflow-y: hidden; width:100vw; margin-left: -8.5%; margin-bottom:80px ;}
@@ -200,7 +200,7 @@ img{width: 100%;}
     .pjFlex .pjfImg:last-child{margin-right: 7.5%;}
     .pjfImg > img{border-radius: 8px;}
     .pjoImg > img{border-radius: 8px;}
-    .widthBox{padding:0 7.5%; width: auto; margin: 0 auto; position: relative;}
+    .widthBox{padding:0 10.5%; width: auto; margin: 0 auto; position: relative;}
     .pjTextBox{text-align: left;}
     .pjTextBox:last-child{text-align: left; margin-bottom: 0}
     .introImgBox{height: fit-content; padding: 24px 16px; border-radius: 8px;}
@@ -238,10 +238,10 @@ img{width: 100%;}
 
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; flex-direction: column;}
-.sapImg{width: 92.5vw; max-width: 760px;}
+.sapImg{width: 89.5vw; max-width: 760px;}
 .sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{margin-left: -7.5%; width: 92.5vw; max-width: 760px;}
+.saPageFimg{margin-left: -7.5%; width: 89.5vw; max-width: 760px;}
 .saPageFimg > img{border-radius: 0 8px 8px 0;}
 
 /* 마이페이지 */
@@ -265,8 +265,8 @@ img{width: 100%;}
 .driverPageSimgBox{display: flex; flex-direction: column;}
 .driverPageSimgBox .exBox{display: flex;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
-.numTextBox{display: flex;}
-.numTextBox .numBox{width: 20px; height: 20px; border-radius: 20px; background: #f17917; font-size: 14px; font-weight: 600; color: #fff;display: flex; justify-content: center; align-items: center; margin-right: 12px;}
+.numTextBox{display: flex; margin-top: 32px;}
+.numTextBox .numBox{width: 24px; height: 24px; border-radius: 20px; background: #f17917; font-size: 14px; font-weight: 600; color: #fff;display: flex; justify-content: center; align-items: center; margin-right: 12px;}
 }
 
 
