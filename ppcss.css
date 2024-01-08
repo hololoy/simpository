@@ -3,7 +3,7 @@
 
 
 /* pc css */
-@media (min-width:1180px) {
+@media screen and (min-width:1180px) {
 
 /* 공통 css */
 body{margin: 0;}
@@ -155,7 +155,7 @@ img{width: 100%;}
 
 
 
-@media (max-width:1179px) {
+@media screen and (max-width:1179px) {
     
     img{width: 100%;}
     body{margin: 0;}
