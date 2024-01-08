@@ -113,7 +113,6 @@ img{width: 100%;}
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; justify-content: space-between;}
-.simgTextBox{width: 340px;}
 .sapImg{max-width: 760px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-right: 80px;}
@@ -124,7 +123,7 @@ img{width: 100%;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
 .msImgBox > img{width: 70%; height: fit-content;border-radius: 8px;}
-.myPageTimgBox{display: flex; justify-content: space-between;}
+.myPageTimgBox{display: flex; flex-direction: column;}
 .myPageTimgBox .tBox .exBox{display: flex;}
 .myPageTimgBox .tBox .exLineBox{left: -100px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
@@ -201,6 +200,7 @@ img{width: 100%;}
     .pjTextBox:last-child{text-align: left; margin-bottom: 0}
     .introImgBox{height: fit-content; padding: 40px 64px; border-radius: 8px;}
     .pjiText .pjText{width: 100%; max-width: 720px; margin-bottom: 64px;}
+    .relBox{position: relative;}
     .mediaBorderM{width: 100%; max-width: 360px; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaModal{width: 100%; min-width: 360px;  min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 
@@ -233,8 +233,8 @@ img{width: 100%;}
 .saPageSimgBox .simg{margin-top: 100px;}
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
-.sapFlexBox{display: flex; justify-content: space-between;}
-.simgTextBox{width: 340px;}
+.sapFlexBox{display: flex; flex-direction: column;}
+
 .sapImg{max-width: 760px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-right: 80px;}
