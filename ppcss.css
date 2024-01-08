@@ -196,6 +196,7 @@ img{width: 100%;}
     .pjFlex::after{position: absolute;top: 0; right: 0; height: 100%; width:7.5%; background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0));}
     .pjFlex .pjfImg{width: 68%; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
     .pjFlex .pjfImg:first-child{margin-left: 7.5%;}
+    .pjFlex .pjfImg:last-child{margin-right: 7.5%;}
     .pjfImg > img{border-radius: 8px;}
     .pjoImg > img{border-radius: 8px;}
     .widthBox{padding:0 7.5%; width: auto; margin: 0 auto; position: relative;}
