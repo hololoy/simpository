@@ -115,7 +115,7 @@ img{width: 100%;}
 .sapFlexBox{display: flex; justify-content: space-between;}
 .sapImg{max-width: 760px;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{margin-right: 80px;}
+
 
 /* 마이페이지 */
 .myPageSimgBox{margin-bottom: 160px;}
@@ -193,8 +193,9 @@ img{width: 100%;}
         flex-wrap: no-wrap;
         overflow-x: auto;
         overflow-y: hidden;
+        width: 87.5vw;
     margin-bottom:80px ;}
-    .pjFlex .pjfImg{min-width: 278px; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
+    .pjFlex .pjfImg{width: 68%; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
     .widthBox{padding:0 12.5%; width: auto; margin: 0 auto; position: relative;}
     .pjTextBox{text-align: left;}
     .pjTextBox:last-child{text-align: left; margin-bottom: 0}
