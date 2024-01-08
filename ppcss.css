@@ -205,7 +205,7 @@ img{width: 100%;}
     .introImgBox{height: fit-content; padding: 24px 16px; border-radius: 8px;}
     .pjiText .pjText{width: 100%; max-width: 720px; margin-bottom: 64px;}
     .relBox{position: relative;}
-    .mediaBorderM{width: 100%; max-width: 360px; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaBorderM{width: 100%; max-width: 300px; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaBorderM > img{border-radius: 8px;}
     .mediaModal{width: 100%; min-width: 360px;  min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaModal > img{border-radius: 8px;}
@@ -224,7 +224,7 @@ img{width: 100%;}
 .dbbg{position: absolute;top: 0;left: 0;width: 100%;}
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
-.smiCircle{width: 64px; height: 64px; background: #d4d4d4; font-size: 17px; font-weight: 700; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
+.smiCircle{width: 64px; height: 64px; background: #d4d4d4; font-size: 14px; font-weight: 600; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .smBoxColor{background: #f17917!important;}
 .bbgg{background: linear-gradient(#333,#000 );}
 .bbggReverse{background: linear-gradient(to top, #333,#000 );}
@@ -237,7 +237,7 @@ img{width: 100%;}
 
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; flex-direction: column;}
-.sapImg{width: 87.5vw; max-width: 760px;}
+.sapImg{width: 92.5vw; max-width: 760px;}
 .sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-left: -7.5%; width: 92.5vw; max-width: 760px;}
@@ -263,6 +263,8 @@ img{width: 100%;}
 .driverPageSimgBox{display: flex; flex-direction: column;}
 .driverPageSimgBox .exBox{display: flex;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
+.numTextBox{display: flex;}
+.numTextBox .numBox{width: 20px; height: 20px; background: #f17917; font-size: 14px; font-weight: 600; color: #fff;display: flex; justify-content: center; align-items: center; margin-right: 12px;}
 }
 
 
