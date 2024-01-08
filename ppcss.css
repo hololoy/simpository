@@ -236,7 +236,7 @@ img{width: 100%;}
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; flex-direction: column;}
 .sapImg{width: 87.5vw; max-width: 760px;}
-.sapImg > img{border-radius: 8px 0 8px 0;}
+.sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-left: -7.5%; width: 92.5vw; max-width: 760px;}
 
