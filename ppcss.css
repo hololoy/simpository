@@ -206,9 +206,11 @@ img{width: 100%;}
     .introImgBox{height: fit-content; padding: 24px 16px; border-radius: 8px;}
     .pjiText .pjText{width: 100%; max-width: 720px; margin-bottom: 64px;}
     .relBox{position: relative;}
-    .mediaBorderM{width: 100%; max-width: 320px; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaBorderM{width: 100%; max-width: 340px; min-width: 280px; margin: 0 auto; height: fit-content; outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaBorderM > img{border-radius: 8px;}
-    .mediaModal{width: 100%; min-width: 300px;  min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaBorderPC{width: 100%; border-radius: 16px; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaBorderPC > img{width: 100%;}
+    .mediaModal{width: 100%; max-width: 320px;  min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaModal > img{border-radius: 8px;}
 
     /* 세컨드마켓 css */
@@ -241,10 +243,11 @@ img{width: 100%;}
 .sapImg{width: 89.5vw; max-width: 760px;}
 .sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{margin-left: -7.5%; width: 89.5vw; max-width: 760px;}
+.saPageFimg{margin-left: -10.5%; width: 89.5vw; max-width: 760px;}
 .saPageFimg > img{border-radius: 0 8px 8px 0;}
 
 /* 마이페이지 */
+#myPage .fsi{width: 89.5vw;}
 .myPageSimgBox{margin-bottom: 160px;}
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
