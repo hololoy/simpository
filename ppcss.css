@@ -229,7 +229,7 @@ img{width: 100%;}
 .smb02{background: #f1791720;}
 .smTag{color: #f17917; border: 1px solid #f17917; }
 .saTop::after{content: ''; z-index: -1; position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
-.pageExText{font-size: 17px; font-weight: 400; line-height: 1.7; margin-bottom: 40px;}
+.pageExText{font-size: 14px; font-weight: 400; line-height: 1.7; margin-bottom: 40px;}
 .saPageSimgBox{display: flex;justify-content: space-between; padding-bottom:160px;}
 .saPageSimgBox .simg{margin-top: 100px;}
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
