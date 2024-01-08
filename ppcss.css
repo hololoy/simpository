@@ -186,7 +186,7 @@ img{width: 100%;}
     .rTextBox{font-weight: 400; font-size: 16px; color: #fff; margin: 8px 0;}
     .pbFlexBox .rTextBox:first-child{width:40%} 
     #sHeading{font-size: 24px!important; font-weight: 600!important;line-height: 1.3; margin-top: 0; margin-bottom: 16px;}
-    .pjText{font-size: 17px; line-height: 1.7; font-weight:400; margin-bottom: 32px; margin-top: 0;}
+    .pjText{font-size: 15px; line-height: 1.7; font-weight:400; margin-bottom: 32px; margin-top: 0;}
     .tBold{font-weight: 700!important;}
     .pt100{padding-top: 64px;}
     .pb100{padding-bottom: 64px;}
