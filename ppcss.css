@@ -143,18 +143,33 @@ img{width: 100%;}
 
 
 
-
-
+/******************** 모바일 css ********************/
+/******************** 모바일 css ********************/
+/******************** 모바일 css ********************/
+/******************** 모바일 css ********************/
+/******************** 모바일 css ********************/
+/******************** 모바일 css ********************/
 /******************** 모바일 css ********************/
 
 
 
 @media (max-width:1179px) {
+    
     img{width: 100%;}
     body{margin: 0;}
     section{position: relative; text-align: left;}
     #PPcontentsPC{display: none;}
     #PPcontentsMobile{display: block!important;}
+    .wb{color: #555;}
+.bb{color: #d0d0d0;}
+.b33{background: #333;}
+.b33 #sHeading,.b22 #sHeading,.bbgg #sHeading,.bbggReverse #sHeading{color: #fff!important;}
+.b33 .pjText,.b22 .pjText,.b33 .pjBold,.b22 .pjBold,.bbgg .pjText,.bbgg .pjText,.bbggReverse .pjText,.bbggReverse .pjText{color: #D0D0D0!important;}
+.b22{background: #222;}
+.bff{background: #fff;}
+.bff #sHeading{color: #333!important;}
+.bff .pjText{color: #555!important;}
+.bg44{background: #444;}
     .pbFlexBox .rTextBox:first-child{width:40%} 
     #PPcontents{max-width: 100%;}
     #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
