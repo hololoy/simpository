@@ -115,6 +115,8 @@ img{width: 100%;}
 .sapFlexBox{display: flex; justify-content: space-between;}
 .sapImg{max-width: 760px;}
 .saPageTimgBox{margin-bottom: 140px;}
+.saPageFimg{margin-right: 80px;}
+
 
 
 /* 마이페이지 */
@@ -212,7 +214,7 @@ img{width: 100%;}
 
     /* 세컨드마켓 css */
     .arrowImg{width: 24px; margin: 60px 0;}
-    .saPageSimgBox{display: flex; flex-direction: column; justify-content: none; padding-bottom:160px;}
+    .saPageSimgBox{display: flex; flex-direction: column; justify-content: none; padding-bottom:80px;}
     .saPageSimgBox .simg{margin-top: 100px;}
     .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 
@@ -234,15 +236,13 @@ img{width: 100%;}
 .smTag{color: #f17917; border: 1px solid #f17917; }
 .saTop::after{content: ''; z-index: -1; position: absolute; bottom: 0; left: 0; background: #333; width: 100%; height: 870px;}
 .pageExText{font-size: 14px; font-weight: 400; line-height: 1.7; margin-bottom: 40px;}
-.saPageSimgBox{display: flex;justify-content: space-between; padding-bottom:160px;}
-.saPageSimgBox .simg{margin-top: 100px;}
-.saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
+
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; flex-direction: column;}
-
-.sapImg{max-width: 760px;}
+.sapImg{width: 87.5vw; max-width: 760px;}
+.sapImg > img{border-radius: 8px 0 8px 0;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{margin-right: 80px;}
+.saPageFimg{margin-left: -12.5%; width: 87.5vw; max-width: 760px;}
 
 /* 마이페이지 */
 .myPageSimgBox{margin-bottom: 160px;}
