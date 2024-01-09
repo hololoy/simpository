@@ -193,7 +193,7 @@ img{width: 100%;}
     .wd92{width: 89.5vw;}
     .pIntroTag{text-align: left; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 14px; font-weight: 700; margin: 0 0 40px;}
     .pjCaption{font-size: 14px; margin-bottom: 8px;}
-    .pjFlex{ position:relative; display: flex; flex-wrap: no-wrap;  overflow-x: auto; overflow-y: hidden; width:100vw; margin-left: -8.5%; margin-bottom:80px ;}
+    .pjFlex{ position:relative; display: flex; flex-wrap: no-wrap;  overflow-x: auto; overflow-y: hidden;  margin-left: -8.5%; margin-bottom:80px ;}
     .pjFlex .pjfImg{width: 68%; max-width: 360px; border-radius: 8px; margin-right: 16px;flex: 0 0 auto;}
     .pjFlexBg{position: absolute;top: 0; right: 0; height: 100%; width:12.5%; background: linear-gradient(to left,rgba(34,34,34,1),rgba(34,34,34,0));}
     .pjFlex .pjfImg:first-child{margin-left: 7.5%;}
