@@ -1,6 +1,6 @@
 
 *{box-sizing: border-box;font-family: "Pretendard", "Apple SD Gothic Neo";}
-
+p{margin:0}
 
 /* pc css */
 @media screen and (min-width:1180px) {
