@@ -48,7 +48,7 @@ img{width: 100%;}
 .pjiFlex{display: flex; margin-bottom: 40px;}
     .pjiFlex:last-child{margin-bottom: 0;}   
     .pjiFlex .pjiImgBox{width: 56px; margin-right: 24px;}
-    .pjiFlex .pjiWho{font-size: 18px; font-weight: 700; margin-bottom: 8px;}
+    .pjiFlex .pjiWho{font-size: 15px; font-weight: 700; margin-bottom: 8px;}
     .pjiFlex .pjiText{padding: 12px; width: fit-content; border-radius: 0 12px 12px 12px; background: #333; color: #eee; line-height: 1.7; margin-bottom: 8px; font-size: 16px; font-weight: 400;}
 #pjIntro{padding: 140px 0;}
 .pjiText .pjText{width: 65%; margin-bottom: 0;}
