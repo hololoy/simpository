@@ -44,7 +44,7 @@ img{width: 100%;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
 .pjInterview ,.pjListBox{max-width: 720px; text-align: left; padding:40px 120px; border-radius: 8px; background: #282828; margin: 0 auto 80px;}
-.introImgBox{width: 35%; height: fit-content; padding: 40px 64px; border-radius: 8px;}
+.introImgBox{width: 420px; height: fit-content; padding: 40px; border-radius: 8px;}
 .pIntroTag{text-align: center; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 18px; font-weight: 700; margin:0 auto 64px;}
 .pjiFlex{display: flex; margin-bottom: 40px;}
     .pjiFlex:last-child{margin-bottom: 0;}   
@@ -246,7 +246,7 @@ img{width: 100%;}
 .smlcLeft{background: linear-gradient(to left,#f17917,#f1791700) }
 .dbbg{position: absolute;top: 0;left: 0;width: 100%;}
 .smIntroImgCaption{text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
-.smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
+.smiCircleBox{display: flex; justify-content: space-between;max-width: 300px; padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
 .smiCircle{width: 64px; height: 64px; background: #d4d4d4; font-size: 14px; font-weight: 600; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .smBoxColor{background: #f17917!important;}
 .bbgg{background: linear-gradient(#333,#000 );}
