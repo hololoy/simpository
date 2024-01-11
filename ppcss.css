@@ -229,6 +229,7 @@ img{width: 100%;}
     .pjiText .pjText{width: 100%; max-width: 720px; margin-bottom: 64px;}
     .relBox{position: relative;}
     .mediaBorderM{width: 100%; max-width: 340px; min-width: 280px; margin: 0 auto; height: fit-content; border: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaBorderM > img{border-radius: 8px;}
     .mediaBorderPC{width: 100%; border-radius: 16px; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaBorderPC > img{width: 100%;}
     .mediaModal{width: 100%; max-width: 320px;  min-width: 280px; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
