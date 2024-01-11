@@ -201,7 +201,6 @@ img{width: 100%;}
     .tBold{font-weight: 400!important; color: #fff; border-radius: 2px; padding: 2px 2px;}
     .pt100{padding-top: 100px;}
     .pb100{padding-bottom: 100px;}
-    .wd92{width: 92.5vw;}
     .pjInterview, .pjListBox{max-width: 720px; padding:32px 5%; border-radius: 8px; background: #282828; margin-bottom: 40px;}
     .pjiFlex{display: flex;margin-bottom: 40px;}
     .pjiFlex:last-child{margin-bottom: 0px;}
@@ -260,14 +259,14 @@ img{width: 100%;}
 
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; flex-direction: column;}
-.sapImg{width: 92.5vw; max-width: 760px;}
+.sapImg{ max-width: 760px;}
 .sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{margin-left: -10.5%; width: 92.5vw; max-width: 760px;}
+.saPageFimg{margin-left: -10.5%; width: 100%; max-width: 760px;}
 .saPageFimg > img{border-radius: 0 8px 8px 0;}
 
 /* 마이페이지 */
-#myPage .fsi{width: 92.5vw;}
+#myPage .fsi{width: 100%;}
 .myPageSimgBox{margin-bottom: 160px;}
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
@@ -283,7 +282,7 @@ img{width: 100%;}
 
 
 /* 어드민페이지 */
-.adminFsi{width: 92.5vw;}
+.adminFsi{width: 100%;}
 
 /* 배송기사 페이지 */
 .driverPageSimgBox{display: flex; flex-direction: column;}
