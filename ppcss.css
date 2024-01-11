@@ -8,8 +8,8 @@ p{margin:0}
 /* 공통 css */
 body{margin: 0;}
 section{position: relative; text-align: left;}
-.pt100{padding-top: 160px;}
-.pb100{padding-bottom: 160px;}
+.pt100{padding-top: 120px;}
+.pb100{padding-bottom: 120px;}
 #PPcontentsPC,#PPcontentsMobile{padding: 0!important;}
 #PPcontentsMobile{display: none;}
 img{width: 100%;}
@@ -24,8 +24,8 @@ img{width: 100%;}
 .bff #sHeading{color: #333!important;}
 .bff .pjText{color: #555!important;}
 .bg44{background: #444;}
-.widthBox{padding: 32px; width: 1180px; margin: 0 auto; position: relative;}
-.w33{width: 33%;}
+.widthBox{padding:0 32px; width: 1180px; margin: 0 auto; position: relative;}
+.w30{width: 30%;}
 
 #PPcontents{max-width: 100%;}
 #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
@@ -151,6 +151,7 @@ img{width: 100%;}
 .driverPageSimgBox{display: flex; justify-content: space-between;}
 .driverPageSimgBox .exBox{display: flex;}
 .driverPageSimgBox .pjText{margin-bottom: 24px;}
+.driverPageSimgBox .tBox{align-self: flex-end;}
 }
 
 
