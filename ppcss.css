@@ -131,7 +131,7 @@ img{width: 100%;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
 .msImgBox > img{width: 70%; height: fit-content;border-radius: 8px;}
-.myPageTimgBox{display: flex; flex-direction: column;}
+.myPageTimgBox{display: flex; justify-content: space-between;}
 .myPageTimgBox .tBox .exBox{display: flex;}
 .myPageTimgBox .tBox .exLineBox{left: -100px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
