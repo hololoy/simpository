@@ -50,9 +50,10 @@ img{width: 100%;}
     .pjiFlex .pjiImgBox{width: 44px; margin-right: 16px;}
     .pjiFlex .pjiWho{font-size: 15px; font-weight: 700; margin-bottom: 8px;}
     .pjiFlex .pjiText{padding: 12px; width: fit-content; border-radius: 0 12px 12px 12px; background: #333; color: #eee; line-height: 1.7; margin-bottom: 8px; font-size: 16px; font-weight: 400;}
-    .lbContentBox{padding-bottom:24px; margin-bottom: 24px; border-bottom: 1px solid #282828;}
+    .lbContentBox{padding-bottom:24px; margin-bottom: 24px; border-bottom: 1px solid #555;}
+    .lbContentBox:last-child{padding-bottom:0; margin-bottom: 0; border-bottom: 0 solid #555;}
     .lbHeading{font-size: 15px; font-weight: 600; margin-bottom: 8px;}
-    .lbText{font-size: 16px; font-weight: 400; margin-bottom: 8px; color: #9A9A9A;}
+    .lbText{font-size: 16px; line-height: 1.7; font-weight: 400; margin-bottom: 8px; color: #9A9A9A;}
     #pjIntro{padding: 140px 0;}
 .pjiText .pjText{width: 65%; margin-bottom: 0;}
 .pjBold{font-size: 17px; line-height: 1.7; font-weight:700; margin-bottom: 8px;}
@@ -206,9 +207,10 @@ img{width: 100%;}
     .pjiFlex .pjiImgBox{width: 40px; margin-right: 8px;}
     .pjiFlex .pjiWho{font-size: 14px; font-weight: 700; margin-bottom: 4px;}
     .pjiFlex .pjiText{width: fit-content; padding: 12px; border-radius: 0 12px 12px 12px; background: #333; color: #eee; line-height: 1.7; margin-bottom: 8px; font-size: 14px; font-weight: 400;}
-    .lbContentBox{padding-bottom:24px; margin-bottom: 24px; border-bottom: 1px solid #282828;}
+    .lbContentBox{padding-bottom:24px; margin-bottom: 24px; border-bottom: 1px solid #555;}
+    .lbContentBox:last-child{padding-bottom:0; margin-bottom: 0; border-bottom: 0 solid #555;}
     .lbHeading{font-size: 14px; font-weight: 600; margin-bottom: 8px;}
-    .lbText{font-size: 14px; font-weight: 400; margin-bottom: 8px; color: #9A9A9A;}
+    .lbText{font-size: 14px; line-height: 1.7; font-weight: 400; margin-bottom: 8px; color: #9A9A9A;}
     .pIntroTag{text-align: left; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 14px; font-weight: 700; margin: 0 0 40px;}
     .pjCaption{font-size: 14px; margin-bottom: 8px;}
     .pjFlex{ position:relative; display: flex; flex-wrap: no-wrap;  overflow-x: auto; overflow-y: hidden;  margin-left: -8.5%; margin-bottom:80px ;}
