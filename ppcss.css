@@ -44,7 +44,7 @@ img{width: 100%;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
 .pjInterview ,.pjListBox{max-width: 720px; text-align: left; padding:40px 120px; border-radius: 8px; background: #282828; margin: 0 auto 80px;}
-.introImgBox{width: 420px; height: fit-content; padding: 40px; border-radius: 8px;}
+.introImgBox{width: 50%; height: fit-content; padding: 40px; border-radius: 8px;}
 .pIntroTag{text-align: center; width: fit-content; padding: 10px 16px 10px; border-radius: 100px; font-size: 18px; font-weight: 700; margin:0 auto 64px;}
 .pjiFlex{display: flex; margin-bottom: 40px;}
     .pjiFlex:last-child{margin-bottom: 0;}   
