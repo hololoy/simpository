@@ -111,7 +111,7 @@ img{width: 100%;}
 .dbbg{position: absolute;top: 0;left: 0;width: 100%;}
 .smIntroImgCaption{border-radius: 100px; text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smIntroImg{position: relative;border: 1px solid rgb(199, 199, 199); border-radius: 100px; overflow: hidden;}
-.smiCircleBox{display: flex; justify-content: space-between;max-width: 300px; padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
+.smiCircleBox{display: flex; justify-content: space-between; padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
 .smiCircle{width: 84px; height: 84px; background: #d4d4d4; font-size: 17px; font-weight: 700; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .smBoxColor{background: #f17917!important;}
 @keyframes smirotate {
