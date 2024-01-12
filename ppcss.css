@@ -112,9 +112,9 @@ img{width: 100%;}
 .smIntroImgCaption{border-radius: 100px; text-align: center; font-size: 14px; font-weight: 400; color: #d9d9d9; margin-bottom: 16px;}
 .smIntroImg{position: relative; overflow: hidden;}
 .smiCircleArrowUp, .smiCircleArrowDown{width:200%; height: 200%; background: conic-gradient(transparent, rgb(255, 255, 255), transparent 30%); animation: moveAlongOutline 5s linear infinite;}
-.smiCircleArrowUp{position: absolute; top: -50%; left: -50%;z-index: -1;}
-.smiCircleArrowDown{position: absolute; bottom: -50%; right: -50%;z-index: -1;}
-.smiCircleArrowUp, .smiCircleArrowDown:after {
+.smiCircleArrowUp{position: absolute; top: 50%; left: 50%;}
+.smiCircleArrowDown{position: absolute; bottom: -50%; right: -50%;}
+.smiCircleArrowUp::after, .smiCircleArrowDown::after {
     content: "";
     position: absolute;
     top: 3px;
