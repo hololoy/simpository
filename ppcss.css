@@ -31,7 +31,7 @@ img{width: 100%;
 .bff #sHeading{color: #333!important;}
 .bff .pjText{color: #555!important;}
 .bg44{background: #444;}
-.widthBox{padding:0 32px; width: 1180px; margin: 0 auto; position: relative;}
+.widthBox{width: 1180px; margin: 0 auto; position: relative;}
 .w30{width: 30%;}
 
 #PPcontents{max-width: 100%;}
@@ -104,7 +104,7 @@ img{width: 100%;
 .exlPt09{top: 9px; left: 0;}
 .exlPl16{top: 9px; left: -16px;}
 .exlwd460{width: 444px;}
-.exlwd430{width: 430px;}
+.exlwd430{width: 444px;}
 .exlwd72{width: 72px;}
 .ml72{margin-left: 72px;}
 .mt44{margin-top: 44px;}
@@ -148,10 +148,10 @@ img{width: 100%;
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
-.msImgBox > picture{width: 70%; height: fit-content;border-radius: 8px;}
+.msImgBox > picture{width: 70%; height: fit-content; overflow: hidden; border-radius: 8px;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
 .myPageTimgBox .tBox .exBox{display: flex;}
-.myPageTimgBox .tBox .exLineBox{left: -105px;}
+.myPageTimgBox .tBox .exLineBox{left: -px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
 .myPageTimgBox .tBox .pjText:last-child{margin-bottom: 32px;}
 .myPageTimgBox > .fBox{min-width: 320px;}
