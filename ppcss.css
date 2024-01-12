@@ -211,7 +211,7 @@ img{width: 100%;
     .bg44{background: #444;}
     .pbFlexBox .rTextBox:first-child{width:40%} 
     .mr10{margin-right: 10%;}
-    .ml10{margin-left: 10%;}
+    .ml15{margin-left: 15%;}
     .ma{margin: 0 auto;}
     #PPcontents{max-width: 100%;}
     #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
