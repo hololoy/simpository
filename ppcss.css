@@ -172,7 +172,7 @@ img{width: 100%;
 @media screen and (min-width:720px) and (max-width:1179px) {
 .sapImg, .saPageFimg{border-radius: 8px!important;}
 .adminFsi{width: 100%; border-radius: 8px; overflow: hidden; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
-#adminPage .pjImgBox::after{content:""; background: url(https://i.postimg.cc/BsDTyCqK/sm-pc-16.jpg); position: relative; top: -3px;left: 3px;}
+#adminPage .pjImgBox::after{content:""; z-index: -1; background: url(https://i.postimg.cc/BsDTyCqK/sm-pc-16.jpg); position: relative; top: -3px;left: 3px;}
 }
 
 
