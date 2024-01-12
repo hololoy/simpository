@@ -116,20 +116,11 @@ img{width: 100%;}
 .smiCircleArrowDown{position: absolute; bottom: -5px; right: 20%;}
 @keyframes moveAlongOutline {
     0% {
-      transform: rotate(0deg) translate(100px, 0);
-    }
-    25% {
-      transform: rotate(90deg) translate(100px, 0);
-    }
-    50% {
-      transform: rotate(180deg) translate(100px, 0);
-    }
-    75% {
-      transform: rotate(270deg) translate(100px, 0);
-    }
-    100% {
-      transform: rotate(360deg) translate(100px, 0);
-    }
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+      }
 }
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px;border: 1px solid #d9d9d9;border-radius: 100px;}
 .smiCircle{width: 84px; height: 84px; background: #d4d4d4; font-size: 17px; font-weight: 700; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
