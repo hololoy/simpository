@@ -284,11 +284,10 @@ img{width: 100%;
 
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; flex-direction: column;}
-.sapImg{ max-width: 760px;}
+.sapImg{ max-width: 760px;margin-right: -8%; margin-bottom: 32px; border-radius: 8px 0 0 8px;overflow: hidden;}
 .sapImg > img{border-radius: 8px 0 0 8px;}
 .saPageTimgBox{margin-bottom: 140px;}
-.saPageFimg{margin-left: -10.5%; width: 100%; max-width: 760px;}
-.saPageFimg > img{border-radius: 0 8px 8px 0;}
+.saPageFimg{max-width: 760px; margin-left: -8.5%; margin-bottom: 32px; overflow: hidden; border-radius: 0 8px 8px 0; }
 
 /* 마이페이지 */
 #myPage .fsi{width: 100%;}
@@ -307,7 +306,7 @@ img{width: 100%;
 
 
 /* 어드민페이지 */
-.adminFsi{width: 100%;}
+.adminFsi{max-width: 760px; margin-right:-8%}
 
 /* 배송기사 페이지 */
 .driverPageSimgBox{display: flex; flex-direction: column;}
