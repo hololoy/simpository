@@ -12,7 +12,14 @@ section{position: relative; text-align: left;}
 .pb100{padding-bottom: 120px;}
 #PPcontentsPC,#PPcontentsMobile{padding: 0!important;}
 #PPcontentsMobile{display: none;}
-img{width: 100%;}
+img{width: 100%;    
+    image-rendering: -moz-crisp-edges; /* firefox */
+    image-rendering: -o-crisp-edges; /* opera */
+    image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+    image-rendering: crisp-edges;
+    transform:translateZ(0);
+    backface-visibility:hidden;
+}
 
 .wb{color: #555;}
 .bb{color: #d0d0d0;}
@@ -176,7 +183,14 @@ img{width: 100%;}
 
 @media screen and (max-width:1179px) {
     
-    img{width: 100%;}
+    img{width: 100%;
+        image-rendering: -moz-crisp-edges; /* firefox */
+        image-rendering: -o-crisp-edges; /* opera */
+        image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+        image-rendering: crisp-edges;
+        transform:translateZ(0);
+        backface-visibility:hidden;
+    }
     body{margin: 0;}
     section{position: relative; text-align: left;}
     #PPcontentsPC{display: none;}
