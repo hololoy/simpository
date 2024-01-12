@@ -19,8 +19,6 @@ img{width: 100%;
     image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */ 
     image-rendering: crisp-edges; 
     -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */ 
-    transform:translateZ(0);
-    backface-visibility:hidden;
 }
 
 .wb{color: #555;}
@@ -93,18 +91,19 @@ img{width: 100%;
 .exLineBox{position: relative; top: 3px; left: 0; height: 20px; margin-bottom: 20px;}
 .exBox{display: flex;}
 .elbm60{margin-top: 60px;}
-.elbm266{margin-top: 266px;}
+.elbm266{margin-top: 259px;}
 .elbm184{margin-top: 184px;}
 .exLineBox{display: flex; position: relative;}
 .exLineBox .exlCircleo{width: 20px; height: 20px; display: flex; justify-content: center; align-items: center; border-radius: 20px; position: absolute;}
 .exlcPl102{top: 0; left: -102px;}
-.exlcPr102{top: 0; right: -102px;}
+.exlcPr102{top: 0; right: -100px;}
+.exlcPr174{top: 0; right: -174px;}
 .exlcPl24{top: 0; left: -24px;}
 .exlCircleo .exlCirclei{width: 8px; height: 8px; border-radius: 8px;}
 .exLine{position: absolute; height: 2px; align-self: center;}
 .exlPt09{top: 9px; left: 0;}
 .exlPl16{top: 9px; left: -16px;}
-.exlwd460{width: 460px;}
+.exlwd460{width: 444px;}
 .exlwd430{width: 430px;}
 .exlwd72{width: 72px;}
 .ml72{margin-left: 72px;}
@@ -138,7 +137,7 @@ img{width: 100%;
 .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
 .arrowImg{width: 27px; margin: 80px auto;}
 .sapFlexBox{display: flex; justify-content: space-between;}
-.sapImg{max-width: 760px;}
+.sapImg{max-width: 748px;}
 .saPageTimgBox{margin-bottom: 140px;}
 .saPageFimg{margin-right: 80px;}
 
@@ -149,7 +148,7 @@ img{width: 100%;
 .msImgBox{padding: 40px; border-radius: 8px; background: #333;}
 .msImgBox .exBox:first-child{margin-top: 18px;}
 .msImgBox .pjText:last-child{margin-bottom: 0;}
-.msImgBox > img{width: 70%; height: fit-content;border-radius: 8px;}
+.msImgBox > picture{width: 70%; height: fit-content;border-radius: 8px;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
 .myPageTimgBox .tBox .exBox{display: flex;}
 .myPageTimgBox .tBox .exLineBox{left: -100px;}
@@ -190,10 +189,7 @@ img{width: 100%;
         image-rendering: -o-crisp-edges; /* Opera */ 
         image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */ 
         image-rendering: crisp-edges; 
-        -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */ 
-        transform:translateZ(0);
-        backface-visibility:hidden;
-        
+        -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */   
     }
     body{margin: 0;}
     section{position: relative; text-align: left;}
@@ -303,7 +299,7 @@ img{width: 100%;
 .myPageTimgBox{display: flex; flex-direction: column;}
 .myPageTimgBox .sBox{margin-bottom: 48px;}
 .myPageTimgBox .tBox .exBox{display: flex;}
-.myPageTimgBox .tBox .exLineBox{left: -100px;}
+.myPageTimgBox .tBox .exLineBox{left: -74px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
 .myPageTimgBox .tBox .pjText:last-child{margin-bottom: 32px;}
 .myPageTimgBox > .fBox{min-width: 320px;}
