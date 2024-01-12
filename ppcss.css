@@ -264,8 +264,9 @@ img{width: 100%;
 
     .arrowImg{width: 24px; margin: 60px 0;}
     .saPageSimgBox{display: flex; flex-direction: column; justify-content: none; padding-bottom:80px;}
-    .saPageSimgBox .simg{margin-top: 100px;}
+    .saPageSimgBox .simg{margin-top: 100px; margin-bottom: 32px;}
     .saPageSimgBox .timg{margin-top: 200px; height: fit-content;}
+    .simgTextBox{text-align: right;}
 
 
 
