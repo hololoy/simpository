@@ -113,7 +113,7 @@ img{width: 100%;}
 .smiCircleAniBox{position: relative; border-radius: 100px; overflow: hidden;}
 .smiCircleArrowUp, .smiCircleArrowDown{width:200%; height: 200%; background: conic-gradient(transparent, rgb(255, 255, 255), transparent 30%); }
 .smiCircleArrowUp{position: absolute; top: -50%; left: -50%;animation: moveAlongOutline 5s linear infinite;}
-.smiCircleArrowDown{position: absolute; bottom: -50%; right: -50%;animation: moveAlongOutline 5s reverse linear infinite;}
+.smiCircleArrowDown{position: absolute; bottom: -50%; right: -50%;animation: moveAlongOutline 5s linear infinite;}
 .smiCircleArrowUp::after, .smiCircleArrowDown::after {
     content: "";
     position: absolute;
