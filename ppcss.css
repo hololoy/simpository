@@ -82,7 +82,7 @@ img{width: 100%;
 
 .relBox{position: relative;}
 .mediaModal{max-width: 310px; overflow: hidden; margin: 0 auto; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
-.mediaBorderPC{width: 100%; border-radius: 16px; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+.mediaBorderPC{width: 100%; border-radius: 16px; overflow: hidden; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorderM{max-width: 340px; height: fit-content; border: 3px solid #000; overflow: hidden; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .mediaBorder{outline: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 .fsi > img{border-radius: 16px;}
@@ -151,7 +151,7 @@ img{width: 100%;
 .msImgBox > picture{width: 70%; height: fit-content;border-radius: 8px;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
 .myPageTimgBox .tBox .exBox{display: flex;}
-.myPageTimgBox .tBox .exLineBox{left: -100px;}
+.myPageTimgBox .tBox .exLineBox{left: -105px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
 .myPageTimgBox .tBox .pjText:last-child{margin-bottom: 32px;}
 .myPageTimgBox > .fBox{min-width: 320px;}
@@ -250,7 +250,7 @@ img{width: 100%;
     .pjiText .pjText{width: 100%; max-width: 720px; margin-bottom: 64px;}
     .relBox{position: relative;}
     .mediaBorderM{width: 85%; max-width: 340px; min-width: 280px; overflow: hidden; height: fit-content; border: 3px solid #000; border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
-    .mediaBorderPC{width: 100%; border-radius: 16px; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
+    .mediaBorderPC{width: 100%; border-radius: 16px; overflow: hidden; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
     .mediaBorderPC > img{width: 100%;}
     .mediaModal{width: 80%; max-width: 320px; overflow: hidden;  border-radius: 8px; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 
