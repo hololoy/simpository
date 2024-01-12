@@ -121,7 +121,7 @@ img{width: 100%;}
   }
 }
 .smiCircleBox{display: flex; justify-content: space-between;padding: 22px; position:relative; z-index: 2;}
-.smiCircleBox::after{position: absolute; top: 3px; left: 3px; right: 3px; bottom: 3px; background: #444; z-index: 1;}
+.smiCircleBox::after{content:""; position: absolute; top: 3px; left: 3px; right: 3px; bottom: 3px; background: #444; z-index: 1;}
 .smiCircle{width: 84px; height: 84px; background: #d4d4d4; font-size: 17px; font-weight: 700; color: #333; display: flex; justify-content: center; align-items: center; border-radius: 96px;}
 .smBoxColor{background: #f17917!important;}
 .bbgg{background: linear-gradient(#333,#000 );}
