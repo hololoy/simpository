@@ -111,6 +111,7 @@ img{width: 100%;
 .mt64{margin-top: 64px;}
 .mt80{margin-top: 80px;}
 .mt100{margin-top: 100px;}
+.exBox44{top: 44px;}
 
 /* 세컨드마켓 css */
 .smlcRight{background: linear-gradient(to right,#f17917,#f1791700) }
@@ -151,7 +152,7 @@ img{width: 100%;
 .msImgBox > picture{width: 70%; height: fit-content; overflow: hidden; border-radius: 8px;}
 .myPageTimgBox{display: flex; justify-content: space-between;}
 .myPageTimgBox .tBox .exBox{display: flex;}
-.myPageTimgBox .tBox .exLineBox{left: -px;}
+.myPageTimgBox .tBox .exLineBox{left: -106px;}
 .myPageTimgBox .tBox .pjText:first-child{margin-bottom: 24px;}
 .myPageTimgBox .tBox .pjText:last-child{margin-bottom: 32px;}
 .myPageTimgBox > .fBox{min-width: 320px;}
