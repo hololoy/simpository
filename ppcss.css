@@ -37,18 +37,22 @@ img{width: 100%;
 #PPcontents{max-width: 100%;}
 #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
 
-#topContents .PPTtopText{max-width: 1180px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; padding-top: 100px;}
-#topContents .PPTtopText #ppHeading{font-size: 40px; font-weight: 700!important;}
-#topContents .PPTBottomText{max-width: 100%; border-top: 1px solid #fff;border-bottom: 1px solid #fff;}
-#topContents .PPTBottomText .btBox{max-width: 1180px; height: 232px; min-height: 200px; margin: 0 auto; display: flex; border-left: 1px solid #fff;border-right: 1px solid #fff;}
-#topContents .PPTBottomText .btBox .pbBox{padding: 32px; width: 33.33%; border-right: 1px solid #fff;}
+#topContents .PPTtopTextBox{max-width: 1180px; margin: 0 auto; display: flex; align-items: flex-start; justify-content: space-between; padding-top: 100px;}
+#topContents .PPTtopText #ppTag{font-size: 14px; margin-bottom: 20px; font-weight: 700!important;color: #fff;}
+#topContents .PPTtopText #ppHeading{font-size: 56px; font-weight: 700!important; color: #fff;}
+#topContents .siteLink{display: block; width: fit-content; padding: 8px 16px; border-radius: 8px; background: #fff; color: #333; font-size: 16px; font-weight: 600; opacity: 0.8; transition: 0.3s;}
+#topContents .siteLink:hover{opacity: 1;}
+#topContents .stArrow{display: block; padding: 16px 16px; border-radius: 16px; background: #333; color: #fff; font-size: 16px; font-weight: 600;}
+#topContents .PPTBottomText{max-width: 100%;}
+#topContents .PPTBottomText .btBox{max-width: 1180px; min-height: 200px; margin: 0 auto; display: flex; justify-content: space-between;}
+#topContents .PPTBottomText .btBox .pbBox{padding: 40px; width: 32.5%; border-radius: 8px; background: #fff;}
 #topContents .PPTBottomText .btBox .pbBox:last-child{border-right: 0px;}
 
 
 
 .pjCaption{font-size: 14px; margin-bottom: 16px;}
-#fHeading{font-weight: 700!important; font-size: 16px!important; margin-bottom: 8px; color: #fff;}
-.rTextBox{font-weight: 400; font-size: 16px; color: #fff; margin: 8px 0;}
+#fHeading{font-weight: 700!important; font-size: 16px!important; margin-bottom: 8px;}
+.rTextBox{font-weight: 400; font-size: 16px; color: #333; margin: 8px 0;}
 .pbFlexBox{display: flex;}
 .pbFlexBox .rTextBox:first-child{width:33%} 
 
@@ -216,11 +220,14 @@ img{width: 100%;
     .ma{margin: 0 auto;}
     #PPcontents{max-width: 100%;}
     #topContents{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
-    #topContents .PPTtopText{max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; padding-top: 100px;}
+    #topContents .PPTtopTextBox{max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; padding-top: 100px;}
     #topContents .PPTtopText #ppHeading{font-size: 40px!important; font-weight: 700!important;}
     #topContents .PPTBottomText{max-width: 100%;}
+    #topContents .siteLink{display: block; width: fit-content; padding: 8px 16px; border-radius: 8px; background: #fff; color: #333; font-size: 14px; font-weight: 600; opacity: 0.8; transition: 0.3s;}
+#topContents .siteLink:hover{opacity: 1;}
+#topContents .stArrow{display: block; padding: 16px 16px; border-radius: 14px; background: #333; color: #fff; font-size: 16px; font-weight: 600;}
     #topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; flex-direction: column;}
-    #topContents .PPTBottomText .btBox .pbBox{border-top: 1px solid #fff; padding-top: 18px; display: flex; margin-bottom: 48px;}
+    #topContents .PPTBottomText .btBox .pbBox{padding-top: 18px; display: flex; margin-bottom: 48px;}
     #topContents .PPTBottomText .btBox .pbBox #fHeading{margin-right: 24px;}
     #topContents .PPTBottomText .btBox .pbBox:last-child{border-right: 0px;}
     .rTextBox{font-weight: 400; font-size: 16px; color: #fff; margin: 8px 0;}
