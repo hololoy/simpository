@@ -231,6 +231,8 @@ img{width: 100%;
     #topContents .siteLink{display: block; width: fit-content; padding: 8px 12px; border-radius: 8px; background: #fff; color: #333; font-size: 13px; font-weight: 500; opacity: 0.6; transition: 0.3s;}
 #topContents .siteLink:hover{opacity: 1;}
 #topContents .stArrow{display: flex; margin-left:12px; width: 12px; height: 12px; justify-content: center; align-items: center;border-radius: 24px; background: #333; color: #fff; font-size: 13px; font-weight: 500;}
+#topContents .tcBgBox{position: absolute; top: -50%; left: -50%; transform: translate(50%,50%); width: 100%; height: 100%;}
+#topContents .tcBgBox > img{opacity: 0.2; width: 100%; height: auto;}
     #topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; flex-direction: column;}
     #topContents .PPTBottomText .btBox .pbBox{padding: 16px 20px; border-radius: 8px; background: #fff; display: flex; margin-bottom: 48px;}
     #topContents .PPTBottomText .btBox .pbBox #fHeading{margin-right: 16px; font-size: 14px; font-weight: 600;}
