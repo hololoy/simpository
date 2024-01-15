@@ -181,6 +181,7 @@ img{width: 100%;
 .sapImg, .saPageFimg{border-radius: 8px!important;}
 .adminFsi{width: 100%; border-radius: 8px; overflow: hidden; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 #adminPage .pjImgBox::after{content:""; z-index: -1; display: block; width: 99%; height: 27%; background-size: cover; height: fit-content; background: cover url(https://i.postimg.cc/BsDTyCqK/sm-pc-16.jpg); position: relative; top: -3px;left: 3px;}
+#topContents .PPTBottomText .btBox .pbBox{padding: 24px; width: 32.5%; border-radius: 8px; background: #fff;}
 }
 
 
@@ -222,7 +223,7 @@ img{width: 100%;
     .ma{margin: 0 auto;}
     #PPcontents{max-width: 100%;}
     #topContents{}
-    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; position: relative; padding:48px 24px 24px; margin: 16px; border-radius: 16px;max-height: 800px; box-shadow: 0px,20px,20px,rgba(0,0,0,0.25); }
+    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; position: relative; padding:48px 24px 24px; margin: 0 7.5%; border-radius: 16px;max-height: 800px; box-shadow: 0px,20px,20px,rgba(0,0,0,0.25); }
     #topContents .PPTtopTextBox{max-width: 1180px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;  justify-content: space-between; margin-bottom: 100px; z-index: 1;}
     #topContents .PPTtopText #ppTag{font-size: 13px; margin-bottom: 12px; font-weight: 700!important;} 
     #topContents .PPTtopText #ppHeading{font-size: 32px!important; font-weight: 700!important; color: #fff; margin:0 0 20px;}
