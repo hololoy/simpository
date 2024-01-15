@@ -36,7 +36,7 @@ img{width: 100%;
 
 #PPcontents{max-width: 100%;}
 
-#topContents .topContentsBox{display: flex; position: relative; flex-direction: column;justify-content: space-between; width: 100%; max-width: 1400px; padding: 100px 0; background: rgba(28,28,28,0.8); overflow: hidden; margin: 0 auto; border-radius: 20px;   max-height: 800px; }
+#topContents .topContentsBox{display: flex; position: relative; flex-direction: column;justify-content: space-between; overflow: hidden; width: 100%; max-width: 1400px; padding: 100px 0; background: rgba(28,28,28,0.8); margin: 0 auto; border-radius: 20px;   max-height: 800px;box-shadow: 0,20px,20px,rgba(0,0,0,0.25); }
 
 #topContents .PPTtopTextBox{width: 100%; max-width: 1180px; z-index: 1; margin: 0 auto 120px; display: flex; align-items: flex-start; justify-content: space-between;}
 #topContents .PPTtopText #ppTag{font-size: 14px; margin-bottom: 20px; font-weight: 700!important;} 
@@ -223,19 +223,19 @@ img{width: 100%;
     .ma{margin: 0 auto;}
     #PPcontents{max-width: 100%;}
     #topContents{}
-    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; width: 100%;max-height: 800px;}
+    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; padding:48px 24px 24px; width: 100%;max-height: 800px; box-shadow: 0,20px,20px,rgba(0,0,0,0.25); }
     #topContents .PPTtopTextBox{max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; padding-top: 100px;}
-    #topContents .PPTtopText #ppTag{font-size: 13px; margin-bottom: 16px; font-weight: 700!important;} 
-    #topContents .PPTtopText #ppHeading{font-size: 40px!important; font-weight: 700!important;}
+    #topContents .PPTtopText #ppTag{font-size: 13px; margin-bottom: 12px; font-weight: 700!important;} 
+    #topContents .PPTtopText #ppHeading{font-size: 40px!important; font-weight: 700!important; margin-bottom: 20px;}
     #topContents .PPTBottomText{max-width: 100%;}
-    #topContents .siteLink{display: block; width: fit-content; padding: 8px 16px; border-radius: 8px; background: #fff; color: #333; font-size: 14px; font-weight: 600; opacity: 0.6; transition: 0.3s;}
+    #topContents .siteLink{display: block; width: fit-content; padding: 8px 12px; border-radius: 8px; background: #fff; color: #333; font-size: 13px; font-weight: 500; opacity: 0.6; transition: 0.3s;}
 #topContents .siteLink:hover{opacity: 1;}
-#topContents .stArrow{display: flex; margin-left:16px; width: 24px; height: 24px; justify-content: center; align-items: center;border-radius: 24px; background: #333; color: #fff; font-size: 16px; font-weight: 600;}
+#topContents .stArrow{display: flex; margin-left:12px; width: 12px; height: 12px; justify-content: center; align-items: center;border-radius: 24px; background: #333; color: #fff; font-size: 13px; font-weight: 500;}
     #topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; flex-direction: column;}
-    #topContents .PPTBottomText .btBox .pbBox{padding-top: 18px; display: flex; margin-bottom: 48px;}
-    #topContents .PPTBottomText .btBox .pbBox #fHeading{margin-right: 24px;}
+    #topContents .PPTBottomText .btBox .pbBox{padding: 16px 20px; border-radius: 8px; background: #fff; display: flex; margin-bottom: 48px;}
+    #topContents .PPTBottomText .btBox .pbBox #fHeading{margin-right: 16px; font-size: 14px; font-weight: 600;}
     #topContents .PPTBottomText .btBox .pbBox:last-child{border-right: 0px;}
-    .rTextBox{font-weight: 400; font-size: 16px; color: #fff; margin: 8px 0;}
+    .rTextBox{font-weight: 400; font-size: 13px; color: #333; margin-bottom: 8px;}
     .pbFlexBox .rTextBox:first-child{width:40%} 
     #sHeading{font-size: 24px!important; font-weight: 600!important;line-height: 1.3; margin-top: 0; margin-bottom: 16px;}
     .pjText{font-size: 15px; line-height: 1.7; font-weight:400; margin-bottom: 32px; margin-top: 0; max-width: 560px;}
