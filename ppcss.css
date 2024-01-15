@@ -223,7 +223,7 @@ img{width: 100%;
     .ma{margin: 0 auto;}
     #PPcontents{max-width: 100%;}
     #topContents{}
-    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; padding:48px 24px 24px; width: 100%;max-height: 800px; box-shadow: 0,20px,20px,rgba(0,0,0,0.25); }
+    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; position: relative; padding:48px 24px 24px; margin: 24px; border-radius: 16px; width: 100%;max-height: 800px; box-shadow: 0,20px,20px,rgba(0,0,0,0.25); }
     #topContents .PPTtopTextBox{max-width: 1180px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;  justify-content: space-between; padding-top: 100px; z-index: 1;}
     #topContents .PPTtopText #ppTag{font-size: 13px; margin-bottom: 12px; font-weight: 700!important;} 
     #topContents .PPTtopText #ppHeading{font-size: 40px!important; font-weight: 700!important; color: #fff; margin:0 0 20px;}
