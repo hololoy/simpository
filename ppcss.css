@@ -36,7 +36,7 @@ img{width: 100%;
 
 #PPcontents{max-width: 100%;}
 
-#topContents .topContentsBox{display: flex; position: relative; flex-direction: column;justify-content: space-between; overflow: hidden; width: 100%; max-width: 1400px; padding: 100px 0; background: rgba(28,28,28,0.8); margin: 0 auto; border-radius: 20px;   max-height: 800px;box-shadow: 0px,20px,20px,rgba(0,0,0,0.25); }
+#topContents .topContentsBox{display: flex; position: relative; flex-direction: column;justify-content: space-between; overflow: hidden; width: 100%; max-width: 1400px; padding: 100px 0; background: rgba(28,28,28,0.8); margin: 0 auto; border-radius: 20px;   max-height: 800px;box-shadow: 0px 20px 20px rgba(0,0,0,0.25); }
 
 #topContents .PPTtopTextBox{width: 100%; max-width: 1180px; z-index: 1; margin: 0 auto 120px; display: flex; align-items: flex-start; justify-content: space-between;}
 #topContents .PPTtopText #ppTag{font-size: 14px; margin-bottom: 20px; font-weight: 700!important;} 
@@ -224,7 +224,7 @@ img{width: 100%;
     .ma{margin: 0 auto;}
     #PPcontents{max-width: 100%;}
     #topContents{}
-    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; position: relative; padding:48px 24px 24px; margin: 0 5%; border-radius: 16px;max-height: 800px; box-shadow: 0px,20px,20px,rgba(0,0,0,0.25); }
+    #topContents .topContentsBox{display: flex;flex-direction: column;justify-content: space-between; overflow: hidden; position: relative; padding:48px 24px 24px; margin: 0 5%; border-radius: 16px;max-height: 800px; box-shadow: 0px 20px 20px rgba(0,0,0,0.25); }
     #topContents .PPTtopTextBox{max-width: 1180px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;  justify-content: space-between; margin-bottom: 100px; z-index: 1;}
     #topContents .PPTtopText #ppTag{font-size: 13px; margin-bottom: 12px; font-weight: 700!important;} 
     #topContents .PPTtopText #ppHeading{font-size: 30px!important; font-weight: 700!important; color: #fff; margin:0 0 20px;}
