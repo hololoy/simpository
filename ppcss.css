@@ -181,8 +181,8 @@ img{width: 100%;
 .sapImg, .saPageFimg{border-radius: 8px!important;}
 .adminFsi{width: 100%; border-radius: 8px; overflow: hidden; height: fit-content; border: 3px solid #000; box-shadow: 10px 10px 20px rgba(0,0,0,0.25);}
 #adminPage .pjImgBox::after{content:""; z-index: -1; display: block; width: 99%; height: 27%; background-size: cover; height: fit-content; background: cover url(https://i.postimg.cc/BsDTyCqK/sm-pc-16.jpg); position: relative; top: -3px;left: 3px;}
-#topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; flex-direction: row!important;}
-#topContents .PPTBottomText .btBox .pbBox{padding: 24px; justify-content: space-between; width: 32.5%; border-radius: 8px; background: #fff;}
+#topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; justify-content: space-between; flex-direction: row!important;}
+#topContents .PPTBottomText .btBox .pbBox{padding: 24px; width: 32.5%; border-radius: 8px; background: #fff;}
 #topContents .PPTBottomText .btBox .pbBox #fHeading{margin-bottom: 16px!important;}
 #topContents .topContentsBox{padding:48px!important;}
 }
