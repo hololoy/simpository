@@ -239,7 +239,7 @@ img{width: 100%;
 #topContents .tcBgBox > img{opacity: 0.2; width: 100%; height: auto;}
     #topContents .PPTBottomText .btBox{max-width: 100%;  margin: 0 auto; display: flex; flex-direction: column;}
     #topContents .PPTBottomText .btBox .pbBox{padding: 16px; border-radius: 8px; background: #fff; display: flex; align-items: flex-start; margin-bottom: 8px;}
-    #topContents .PPTBottomText .btBox .pbBox #fHeading{margin:0 16px 0 0; white-space: no-wrap; font-size: 13px; font-weight: 600;}
+    #topContents .PPTBottomText .btBox .pbBox #fHeading{margin:0 16px 0 0; white-space: nowrap; font-size: 13px; font-weight: 600;}
     #topContents .PPTBottomText .btBox .pbBox:last-child{border-right: 0px;}
     .rTextBox{font-weight: 400; font-size: 13px; width: fit-content; white-space : nowrap; color: #333; margin-bottom: 8px;}
     .rTextBox:last-child{margin-bottom: 0px;}
